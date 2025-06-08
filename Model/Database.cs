@@ -1,4 +1,4 @@
-﻿using System;
+er﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -7,7 +7,7 @@ namespace Model
 {
     public class Database
     {
-        private static string _connectionString = @"Server=DESKTOP-EIF8TVE\SQLEXPRESS;Database=TiendaHardware;Trusted_Connection=True;";
+        private static string _connectionString = @"Server=Tuserver\SQLEXPRESS;Database=TiendaHardware;Trusted_Connection=True;";
 
         // Método para hacer una consulta SELECT
         public static int ExecuteNonQuery(string query, SqlParameter[] sqlParams)
